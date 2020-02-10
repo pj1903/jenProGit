@@ -1,0 +1,25 @@
+{
+  "name": "jenkinsgitproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "nyc --reporter=text  --reporter=html mocha --opts test/mocha.opts -- test && semistandard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pj1903/jenProGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pj1903/jenProGit/issues"
+  },
+  "homepage": "https://github.com/pj1903/jenProGit#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "nyc": "^15.0.0"
+  }
+}

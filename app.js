@@ -5,4 +5,11 @@ function isEven (n) {
     return false;
   }
 }
-isEven(101);
+
+function startUp (n) {
+  return isEven(n);
+}
+
+module.exports = {
+  startUp
+};
