@@ -14,4 +14,9 @@ describe('Test Project', function () {
     const res = startUp(n);
     expect(res).to.be.equal(false);
   });
+  it('Test isEven function with undefined value', function () {
+    const n = '1234';
+    const res = startUp(n);
+    expect(res).to.be.equal(true);
+  });
 });
